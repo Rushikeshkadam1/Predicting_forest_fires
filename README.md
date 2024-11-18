@@ -55,14 +55,21 @@ The dataset contains 246 records representing different environmental factors re
 - GridSearchCV was applied for hyperparameter tuning of the Random Forest model.
 - Parameters like the number of trees and maximum depth were optimized to achieve the best results.
 
+## Explainable AI (XAI)
+- **SHAP** values were used to explain model predictions, offering transparency in the decision-making process.
+- The most influential features were identified, showing how each environmental factor contributed to predicting forest fire severity.
+- Feature importance charts provided by SHAP helped understand the model's decision process and ensure that predictions were interpretable and reliable.
+
 ## Final Results and Conclusion
 - The Random Forest model achieved an accuracy of approximately 85%, making it the best-performing model for predicting fire severity.
 - The model demonstrated high precision and recall, proving its effectiveness in forecasting fire occurrences.
+- Explainable AI techniques, such as SHAP, provided transparency into model decisions, highlighting key factors influencing fire risk.
 - This project concludes that meteorological data and fire danger indices can be used to accurately predict forest fires, aiding in proactive fire management and risk mitigation.
 
 ## Technologies Used
 - Python
 - Pandas, NumPy
 - Scikit-learn (for model building and hyperparameter tuning)
+- SHAP (for explainable AI)
 - Matplotlib, Seaborn (for visualizations)
-- Jupyter Notebook
+- Google colab
